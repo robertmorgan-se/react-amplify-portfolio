@@ -43,7 +43,7 @@ nav ul li a:hover {
 }
 
 .background {
-  background-image: url('../assets/images/background(darkened).jpg');
+  background-image: url('../assets/images/background(faded).jpg');
   background-size: cover; /* Ensures the image covers the entire container */
   background-position: center center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
