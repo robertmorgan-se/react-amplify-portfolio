@@ -15,9 +15,9 @@ const Home = () => {
           </div>
         </section>
         <section className="section">
-          <h2>Contact</h2>
+          <h2>Skills</h2>
           <div className="card">
-            <Contact />
+            <Skills />
           </div>
         </section>
         <section className="section">
@@ -27,9 +27,9 @@ const Home = () => {
           </div>
         </section>
         <section className="section">
-          <h2>Skills</h2>
+          <h2>Contact</h2>
           <div className="card">
-            <Skills />
+            <Contact />
           </div>
         </section>
       </div>
