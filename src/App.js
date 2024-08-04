@@ -11,7 +11,7 @@ import './App.css';
 const App = () => {
   return (
     <Router>
-      <div>
+      <div className="background">
         <Header />
         <div className="main-conent"> {/* Ensures padding for the header */}
         <Routes>

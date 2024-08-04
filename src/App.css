@@ -1,10 +1,14 @@
-section {
-  padding: 60px 20px;
-  margin: 60px 0;
+/* src/App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
 header {
-  background: #333;
+  background: #141436;
   color: white;
   padding: 10px 0;
 }
@@ -28,11 +32,26 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* Styling for component headers */
+.background {
+  background-image: url('./assets/images/background\(darkened).jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: fixed; /* Fix the background image */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -100;
+}
+
+.main-content {
+  position: relative; /* Ensure content appears above the background */
+  z-index: 1;
+  padding-top: 60px; /* Padding for header */
+}
+
 h2 {
-  text-align: center;
-  margin-top: 2rem; /* Adjust spacing above the heading */
-  margin-bottom: 1rem; /* Adjust spacing below the heading */
-  font-size: 2rem; /* Adjust font size as needed */
-  color: #333; /* Adjust color as needed */
+  color: white;
 }
