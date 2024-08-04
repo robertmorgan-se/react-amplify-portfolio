@@ -1,9 +1,29 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  .main-content {
-    padding-top: 60px; /* Adjust based on header height */
-  }
-  
+section {
+  padding: 60px 20px;
+  margin: 60px 0;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
