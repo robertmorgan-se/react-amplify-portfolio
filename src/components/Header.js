@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-scroll';
+import './Header.css'; // Import the CSS file for the header
 
 const Header = () => {
   return (
-    <header style={{ position: 'fixed', width: '100%', top: 0 }}>
+    <header className="header">
       <nav>
         <ul>
           <li>

@@ -1,9 +1,12 @@
 import React from 'react';
+import './Skills.css';
 
 const Skills = () => {
   return (
-    <div>
-      {/* Add your component content here */}
+    <div className="skills-container">
+      <p className="skills-text">
+        Test
+      </p>
     </div>
   );
 };

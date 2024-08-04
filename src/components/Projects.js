@@ -1,9 +1,10 @@
 import React from 'react';
+import './Projects.css';
 
 const Projects = () => {
   return (
-    <div>
-      {/* Add your component content here */}
+    <div className="projects-container">
+      <p className="projects-text">Test</p>
     </div>
   );
 };
