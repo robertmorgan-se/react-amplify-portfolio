@@ -1,15 +1,10 @@
 # Personal Portfolio
 
-Welcome to my personal portfolio project! This website showcases my skills, projects, and background as a software engineer. It was built using React and AWS Amplify, reflecting my journey and development experience in a modern, interactive format.
+Welcome to my personal portfolio project! This website showcases my skills, projects, and background as a software engineer. It was built using React and AWS Amplify, reflecting my journey and development experience in a modern, interactive format. This is my first time using React or Amplify.
 
 ## About
 
 This portfolio is designed to be a minimalistic yet dynamic representation of my work. It includes sections for:
-
-- **About Me**: A brief overview of my background, skills, and interests.
-- **Projects**: A showcase of my past and current projects.
-- **Skills**: A detailed list of my technical and soft skills.
-- **Contact**: Information on how to get in touch with me.
 
 ## Technologies Used
 
