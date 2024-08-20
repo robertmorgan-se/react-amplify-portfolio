@@ -8,7 +8,7 @@
   background-color: #141436;
   z-index: 1000;
   margin: 0;
-  padding: 10px 0; /* Padding at the top and bottom */
+  padding: 25px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow */
 }
 
@@ -16,7 +16,9 @@ nav ul {
   width: 100%;
   list-style: none;
   display: flex;
-  justify-content: center; /* Center the navigation items */
+  justify-content: space-around; /* Center the navigation items */
+  margin-top: 16px;
+  margin-bottom: 16px;
   margin: 0;
   padding: 0;
 }
