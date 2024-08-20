@@ -5,6 +5,8 @@ html, body {
   padding: 0;
   font-family: Arial, sans-serif;
   overflow-x: hidden; /* Prevent horizontal scroll */
+  background-color: #333333;
+
 }
 
 body {
@@ -43,11 +45,11 @@ nav ul li a:hover {
 }
 
 .background {
-  background-image: url('../assets/images/background(faded).jpg');
-  background-size: cover; /* Ensures the image covers the entire container */
-  background-position: center center; /* Centers the image */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  position: fixed; /* Fix the background image */
+  /* background-image: url('../assets/images/background(faded).jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; */
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;

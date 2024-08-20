@@ -11,7 +11,7 @@ import './styles/globals.css';
 const App = () => {
   return (
     <Router>
-      <div className="background"></div>
+      {/*<div className="background"></div> */}
       <Header />
       <div className="main-content"> {/* Ensures padding for the header */}
         <Routes>
