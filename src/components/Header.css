@@ -30,7 +30,6 @@ nav ul li {
 nav ul li a {
   color: white;
   text-decoration: none;
-  padding: 10px 20px; /* Adjust padding as needed */
 }
 
 nav ul li a:hover {
