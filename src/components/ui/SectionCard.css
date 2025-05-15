@@ -1,0 +1,10 @@
+.section-card {
+  background: #141436;
+  color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 3px solid rgb(38, 230, 236);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 0 10px rgb(255, 255, 255);
+}

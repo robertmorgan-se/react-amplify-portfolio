@@ -10,18 +10,6 @@
   font-size: 2rem;
 }
 
-.card {
-  background: #141436;
-  color: white;
-  border-radius: 8px;
-  padding: 1.5rem;
-  max-width: 800px;
-  margin: 0 auto;
-  border: 3px solid rgb(38, 230, 236); /* Adds a white border */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 0 10px rgb(255, 255, 255); /* Adjust shadows for 3D effect */
-}
-
-
 .main-content {
   position: relative; /* Position content on top of the background */
   z-index: 1; /* Ensure the content is above the pseudo-element */
