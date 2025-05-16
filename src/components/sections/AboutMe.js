@@ -1,11 +1,14 @@
-import React from 'react';
-import './AboutMe.css';
-
 const AboutMe = () => {
   return (
-    <div className="about-me-container">
-      <p className="about-me-text">
-        As a software engineer with a passion for solving complex problems, I blend technical expertise with a love for learning. My journey from developing a mood-based song suggestion app to exploring machine learning reflects my commitment to using technology to enhance lives. Outside of coding, I delve into history, art, and the sciences, continually seeking to connect diverse interests and create impactful solutions.
+    <div className="space-y-4 leading-relaxed text-base">
+      <p>
+        I'm a software engineer passionate about solving real-world problems through practical, scalable solutions.
+      </p>
+      <p>
+        My experience spans frontend, backend, and cloud infrastructure. I enjoy building full-stack applications that prioritize accessibility, performance, and clean architecture.
+      </p>
+      <p>
+        Outside of coding, I'm deeply interested in science, psychology, and creative media. I enjoy continuous learning and helping others learn too.
       </p>
     </div>
   );

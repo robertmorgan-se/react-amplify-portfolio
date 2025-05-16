@@ -3,32 +3,27 @@ import Contact from '../components/sections/Contact';
 import Projects from '../components/sections/Projects';
 import Skills from '../components/sections/Skills';
 import SectionCard from '../components/ui/SectionCard';
-import './Home.css';
 
 const Home = () => {
   return (
-      <div className="main-content">
-        <section className="section" id="about-me">
-          <h2>About Me</h2>
-          <SectionCard>
+      <div className="bg-slate-100 text-gray-800 pt-24 pb-10 px-4 max-w-md md:max-w-2xl lg:max-w-4xl mx-auto">
+        <section className="mb-10" id="about-me">
+          <SectionCard title="About Me">
             <AboutMe />
           </SectionCard>
         </section>
-        <section className="section" id="skills">
-          <h2>Skills</h2>
-          <SectionCard>
+        <section className="mb-10" id="skills">
+          <SectionCard title="Skills">
             <Skills />
           </SectionCard>
         </section>
-        <section className="section" id="projects">
-          <h2>Projects</h2>
-          <SectionCard>
+        <section className="mb-10" id="projects">
+          <SectionCard title="Projects">
             <Projects />
           </SectionCard>
         </section>
-        <section className="section" id="contact">
-          <h2>Contact</h2>
-          <SectionCard>
+        <section className="mb-10" id="contact">
+          <SectionCard title="Contact">
             <Contact />
           </SectionCard>
         </section>

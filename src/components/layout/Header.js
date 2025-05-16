@@ -1,23 +1,29 @@
-import React from 'react';
 import { Link } from 'react-scroll';
-import './Header.css'; // Import the CSS file for the header
 
 const Header = () => {
   return (
-    <header className="header">
-      <nav>
-        <ul>
+<header className="fixed top-0 left-0 w-full bg-slate-800 text-white shadow-lg z-50 ">
+      <nav className="max-w-md mx-auto px-4">
+        <ul className="flex justify-between items-center py-4 text-sm font-medium tracking-wide">
           <li>
-            <Link to="about-me" smooth={true} duration={500}>About Me</Link>
+            <Link to="about-me" smooth={true} duration={300} offset={-76} className="cursor-pointer hover:underline">
+              About Me
+            </Link>
           </li>
           <li>
-            <Link to="projects" smooth={true} duration={500}>Projects</Link>
+            <Link to="skills" smooth={true} duration={300} offset={-76} className="cursor-pointer hover:underline">
+              Skills
+            </Link>
           </li>
           <li>
-            <Link to="skills" smooth={true} duration={500}>Skills</Link>
+            <Link to="projects" smooth={true} duration={300}offset={-76}  className="cursor-pointer hover:underline">
+              Projects
+            </Link>
           </li>
           <li>
-            <Link to="contact" smooth={true} duration={500}>Contact</Link>
+            <Link to="contact" smooth={true} duration={300} offset={-76} className="cursor-pointer hover:underline">
+              Contact
+            </Link>
           </li>
         </ul>
       </nav>

@@ -1,15 +1,14 @@
 import Header from './components/layout/Header';
 import Home from './pages/Home';
-import './styles/globals.css';
 
 const App = () => {
   return (
-    <>
+    <div className="bg-slate-100 min-h-screen text-gray-800 antialiased">
       <Header />
-      <div className="main-content"> {/* Ensures padding for the header */}
+      <main className="mx-auto px-4 py-6">
         <Home />
-      </div>
-    </>
+      </main>
+    </div>
   );
 };
 
