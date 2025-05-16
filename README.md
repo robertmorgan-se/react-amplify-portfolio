@@ -1,37 +1,63 @@
 # Personal Portfolio
 
-Welcome to my personal portfolio project! This website showcases my skills, projects, and background as a software engineer. It was built using React and AWS Amplify, reflecting my journey and development experience in a modern, interactive format. This is my first time using React or Amplify.
+Welcome to my personal portfolio project! This website showcases my skills, projects, and background as a software engineer. It was built using **React** and **Tailwind CSS**, and is hosted via **AWS Amplify**.
 
-## About
+This is my first project using React or Amplify, and it reflects not only my technical growth but also my eye for clean, responsive design.
 
-This portfolio is designed to be a minimalistic yet dynamic representation of my work. It includes sections for:
+---
 
-## Technologies Used
+## 🔍 Overview
 
-- **React**: My first project using React, a powerful JavaScript library for building user interfaces. This project helped me learn the fundamentals of React components, state management, and routing.
-- **AWS Amplify**: Utilized for backend services including hosting and authentication. This is also my initial experience with AWS Amplify, which has been instrumental in deploying and managing my application.
-- **HTML5 & CSS3**: For structuring and styling the portfolio.
-- **JavaScript**: To add interactivity and dynamic content.
+This portfolio includes dedicated sections for:
 
-## Features
+- About Me
+- Skills
+- Projects (linked to GitHub)
+- Contact (with copy-to-clipboard, external links, and icons)
 
-- **Responsive Design**: The portfolio is fully responsive and adapts to various screen sizes.
-- **Interactive Elements**: Includes interactive components to engage visitors.
-- **Modern UX/UI**: Designed with a focus on user experience and modern design principles.
+---
 
-## Deployment
+## 🛠 Technologies Used
 
-This project is deployed using AWS Amplify. Changes pushed to the main branch will automatically trigger a new deployment.
+- **React**: Single-page app built with reusable components and modern React patterns.
+- **Tailwind CSS**: Utility-first framework for styling and responsive design (mobile-first, tablet, and desktop breakpoints).
+- **AWS Amplify**: Used for hosting, deployment, and CI/CD integration via GitHub.
+- **React Icons (Font Awesome)**: Clean and consistent iconography for external links and contact info.
 
-## Contributing
+---
 
-Feel free to open issues or submit pull requests if you have suggestions or improvements. Contributions are always welcome!
+## ✨ Features
 
-## License
+- **Mobile-first Responsive Layout**: Scales cleanly across mobile, tablet, and desktop using Tailwind breakpoints.
+- **Grid-based Projects & Skills Sections**: Uses dynamic layouts to display content efficiently.
+- **SectionCard Layout System**: Reusable section wrappers for consistent padding, spacing, and styling.
+- **Clean Color Palette**: Slate-based theme for a professional and accessible UI.
+- **Interactive Contact Section**: Includes copy-to-clipboard functionality and icon-based social/contact links.
 
-This project is licensed under the MIT License.
+---
 
-## Contact
+## 🚀 Deployment
 
-For any inquiries or feedback, please reach out to [me](mailto:rmor760@wgu.edu).
+This project is continuously deployed via **AWS Amplify**. Any push to the `main` branch automatically triggers a new build and deployment pipeline.
 
+---
+
+## 🤝 Contributing
+
+Suggestions and pull requests are welcome!  
+Please open an issue or submit a PR if you'd like to contribute.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 📫 Contact
+
+If you'd like to get in touch, feel free to reach out via:
+
+- 📧 [rmor760@wgu.edu](mailto:rmor760@wgu.edu)
+- 🔗 [LinkedIn](https://linkedin.com/in/morganiron)
