@@ -1,6 +1,5 @@
 import Header from './components/layout/Header';
 import Home from './pages/Home';
-import FamilyUpload from './pages/FamilyUpload';
 import { Routes, Route } from 'react-router-dom';
 
 const App = () => {
@@ -10,7 +9,6 @@ const App = () => {
       <main className="mx-auto px-4 py-6">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/family-upload" element={<FamilyUpload />} />
         </Routes>
       </main>
     </div>
